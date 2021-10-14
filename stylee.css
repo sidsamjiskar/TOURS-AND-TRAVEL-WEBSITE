@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.swiper-slide{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
